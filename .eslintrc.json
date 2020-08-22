@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "es2020": true,
+    "node": true
+  },
+  "extends": ["plugin:react/recommended", "airbnb"],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "object-curly-newline": "off",
+    "implicit-arrow-linebreak": "off",
+    "function-paren-newline": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-closing-tag-location": "off"
+  }
+}
